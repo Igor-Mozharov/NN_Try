@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ds-project-team3"
+version = "0.1.0"
+description = ""
+authors = ["Igor-Mozharov <r5@ukr.net>"]
+readme = "README.md"
+packages = [{include = "ds_project_team3"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <=3.10.6"
+tensorflow-cpu = "^2.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
